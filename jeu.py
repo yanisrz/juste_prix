@@ -37,7 +37,3 @@ while devine != prix:
 fin_chrono = time.time()
 chrono = int(fin_chrono-debut_chrono)
 print(f"     Bravo tu as trouve le prix en {compteur} tentatives et en {chrono}s!")
-    
-   
-
-
