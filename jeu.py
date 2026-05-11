@@ -17,12 +17,11 @@ else:
     print("    😡  Niveau de difficulté pas valide, le jeu se lance en mode facile par défaut ")
 
 prix = random.randint(1,grand_prix)
-devine = (f"     Devine le prix entre 1 et {grand_prix} : ")
+print(f"     Devine le prix entre 1 et {grand_prix} : ")
 debut_chrono = time.time()
 compteur: int = 0
-
-print( devine) 
-# On débute une boucle tant que "prix" est différent de "devine". Au début elle l'est car ce n'est même pas un nombre entier 
+devine = 0
+# On débute une boucle tant que "prix" est différent de "devine".  
 while devine != prix:
     compteur += 1
     # On demande à l'utilisateur de deviner
